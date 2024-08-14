@@ -23,6 +23,7 @@ El bootcamp es creado y presentado por **Luis Fernando Vásquez Vergara**, quien
 
 <img src="https://media.licdn.com/dms/image/C4E03AQGnuk9_nMX1dQ/profile-displayphoto-shrink_800_800/0/1580769475032?e=1729123200&v=beta&t=3GYk8DuS2TEjU-AHJJWL6hSErC5CreKEjFDJmYP439g" alt="Luis Fernando Vásquez Vergara" style="border-radius: 50%; width: 100px; height: 100px;"/>
 <a target="_blank" href="https://www.linkedin.com/in/luisvasv/"> <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white" alt="LinkedIn Badge"> </a>
+
 ### **LICENCIA**
 
 Este repositorio está bajo la licencia **MIT**. Esta licencia de software de código abierto permite a los usuarios usar, modificar y distribuir el software libremente. La única condición es que se debe incluir el aviso de derechos de autor original y el aviso de la licencia en todas las copias o partes sustanciales del software.
