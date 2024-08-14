@@ -1,5 +1,6 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/SoftServe_logo_2017.svg/179px-SoftServe_logo_2017.svg.png?20220507181101" alt="reporte" border="0"/>
+
 ![cumf-db](https://i.postimg.cc/PxVdgjnj/Slide4.jpg)
 
 <div style="display: flex; justify-content: space-between;"> <img width="340" src="https://github-readme-stats.vercel.app/api?username=codingupmyfuture&count_private=true&show_icons=true&theme=react" /> <img width="359" src="https://streak-stats.demolab.com/?user=codingupmyfuture&theme=react" /> </div>
