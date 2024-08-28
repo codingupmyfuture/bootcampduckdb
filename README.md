@@ -17,7 +17,7 @@ DuckDB es un motor de base de datos SQL diseñado para el análisis de grandes v
 
 Este bootcamp está diseñado para ser impartido en 14 sesiones, con una duración de 2 horas por sesión, totalizando 28 horas. La fecha de inicio es el Martes 03/09/2024 y finalizará el Jueves 17/10/2024. Los temas que se tratarán son:
 
-![topics](https://i.postimg.cc/QxGh606S/cumf-bd.png)
+![topics](https://i.postimg.cc/QxGh606S/cumf-bd.png) 
 ### **INSTRUCTOR**
 
 El bootcamp es creado y presentado por **Luis Fernando Vásquez Vergara**, quien cuenta con más de 17 años de experiencia en la industria del software, con especialización en ingeniería de datos.
