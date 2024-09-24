@@ -4,3 +4,6 @@ https://docs.google.com/spreadsheets/d/1X_1ELWu3IbbWuQHEB1Rb-I0PzD6znbKt_tyFPe0I
 
 desde el repositorio:
 https://github.com/codingupmyfuture/bootcampduckdb/tree/main/contenido.curso/003.normalizacion
+
+herramienta para modelar:
+https://www.drawdb.app
