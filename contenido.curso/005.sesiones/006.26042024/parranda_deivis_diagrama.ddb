@@ -1,0 +1,538 @@
+{
+  "author": "Unnamed",
+  "title": "parranda_deivis",
+  "date": "2024-09-26T23:26:19.119Z",
+  "tables": [
+    {
+      "id": 0,
+      "name": "parranda.tipo_musica",
+      "x": -850.7164062499993,
+      "y": -321.1046875000001,
+      "fields": [
+        {
+          "name": "id_tipo_musica",
+          "type": "SMALLINT",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "Esta es la PK que controla el ID para cada género de música",
+          "id": 0,
+          "size": "",
+          "values": []
+        },
+        {
+          "name": "nombre_genero_musica",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "nombre del genero músical, eje: salsa, bachata, etc",
+          "id": 1,
+          "size": 30
+        },
+        {
+          "name": "activo",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "activo IN ('S', 'N')",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "Para eliminación lógica",
+          "id": 2,
+          "size": 1
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#f03c3c",
+      "key": 1727389644997
+    },
+    {
+      "id": 1,
+      "name": "parranda.tipo_genero_persona",
+      "x": -871.5421875,
+      "y": -60.696874999999864,
+      "fields": [
+        {
+          "name": "id_genero_persona",
+          "type": "SMALLINT",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 0,
+          "size": "",
+          "values": []
+        },
+        {
+          "name": "nombre_genero_persobna",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": 10
+        },
+        {
+          "name": "activo",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "activo IN ('S', 'N')",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 2,
+          "size": 1
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#f03c3c",
+      "key": 1727389654458
+    },
+    {
+      "id": 2,
+      "name": "parranda.tipo_dieta",
+      "x": -823.346875,
+      "y": 408.79687500000017,
+      "fields": [
+        {
+          "name": "id_tipo_dieta",
+          "type": "SMALLINT",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 0,
+          "size": "",
+          "values": []
+        },
+        {
+          "name": "nombre_dieta",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": 20
+        },
+        {
+          "name": "activo",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "activo IN ('S', 'N')",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 2,
+          "size": 1
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#f03c3c",
+      "key": 1727389654634
+    },
+    {
+      "id": 3,
+      "name": "parranda.tipo_menu",
+      "x": -814.20859375,
+      "y": 154.0492187499998,
+      "fields": [
+        {
+          "name": "id_tipo_menu",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": true,
+          "notNull": true,
+          "increment": true,
+          "comment": "",
+          "id": 0
+        },
+        {
+          "name": "nombre_menu",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": 100
+        },
+        {
+          "name": "id_tipo_dieta",
+          "type": "SMALLINT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 2,
+          "size": "",
+          "values": []
+        },
+        {
+          "name": "activo",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "activo IN ('S', 'N')",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 3,
+          "size": 1
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#f03c3c",
+      "key": 1727389654785
+    },
+    {
+      "id": 4,
+      "name": "parranda.usuarios",
+      "x": -876.27421875,
+      "y": -872.0748779296874,
+      "fields": [
+        {
+          "name": "id_usuario",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 0
+        },
+        {
+          "name": "identificacion",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": true,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": 20
+        },
+        {
+          "name": "primer_nombre",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 2,
+          "size": 30
+        },
+        {
+          "name": "segundo_nombre",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 3,
+          "size": 30
+        },
+        {
+          "name": "primer_apellido",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "|",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 4,
+          "size": 30
+        },
+        {
+          "name": "segundo_apellido",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": false,
+          "increment": false,
+          "comment": "",
+          "id": 5,
+          "size": 30
+        },
+        {
+          "name": "telefono",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 6,
+          "size": 20
+        },
+        {
+          "name": "id_genero_persona",
+          "type": "SMALLINT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 7,
+          "size": "",
+          "values": []
+        },
+        {
+          "name": "activo",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "activo IN ('S', 'N')",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 8,
+          "size": 1
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#7d9dff",
+      "key": 1727391134946
+    },
+    {
+      "id": 5,
+      "name": "parranda.musica_persona",
+      "x": 416.8671874999992,
+      "y": -768.5202880859375,
+      "fields": [
+        {
+          "name": "id_usuario",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 0
+        },
+        {
+          "name": "id_tipo_musica",
+          "type": "SMALLINT",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": "",
+          "values": []
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#89e667",
+      "key": 1727392206682
+    },
+    {
+      "id": 6,
+      "name": "parranda.plato_persona",
+      "x": 147.1562499999993,
+      "y": -544.3458740234373,
+      "fields": [
+        {
+          "name": "id_persona",
+          "type": "INTEGER",
+          "default": "",
+          "check": "",
+          "primary": true,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 0
+        },
+        {
+          "name": "id_tipo_menu",
+          "type": "SMALLINT",
+          "default": "",
+          "check": "",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 1,
+          "size": "",
+          "values": []
+        },
+        {
+          "name": "confirmado",
+          "type": "VARCHAR",
+          "default": "",
+          "check": "activo IN ('S', 'N')",
+          "primary": false,
+          "unique": false,
+          "notNull": true,
+          "increment": false,
+          "comment": "",
+          "id": 2,
+          "size": 1
+        }
+      ],
+      "comment": "",
+      "indices": [],
+      "color": "#89e667",
+      "key": 1727392604975
+    }
+  ],
+  "relationships": [
+    {
+      "startTableId": 1,
+      "startFieldId": 0,
+      "endTableId": 4,
+      "endFieldId": 7,
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "parranda.tipo_genero_persona_id_genero_persona_fk",
+      "id": 0
+    },
+    {
+      "startTableId": 2,
+      "startFieldId": 0,
+      "endTableId": 3,
+      "endFieldId": 2,
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "parranda.tipo_dieta_id_tipo_dieta_fk",
+      "id": 1
+    },
+    {
+      "startTableId": 4,
+      "startFieldId": 0,
+      "endTableId": 5,
+      "endFieldId": 0,
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "parranda.usuarios_id_usuario_fk",
+      "id": 2
+    },
+    {
+      "startTableId": 0,
+      "startFieldId": 0,
+      "endTableId": 5,
+      "endFieldId": 1,
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "parranda.tipo_musica_id_tipo_musica_fk",
+      "id": 3
+    },
+    {
+      "startTableId": 4,
+      "startFieldId": 0,
+      "endTableId": 6,
+      "endFieldId": 0,
+      "cardinality": "one_to_one",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "parranda.usuarios_id_usuario_fk",
+      "id": 4
+    },
+    {
+      "startTableId": 3,
+      "startFieldId": 0,
+      "endTableId": 6,
+      "endFieldId": 1,
+      "cardinality": "one_to_many",
+      "updateConstraint": "No action",
+      "deleteConstraint": "No action",
+      "name": "parranda.tipo_menu_id_tipo_menu_fk",
+      "id": 5
+    }
+  ],
+  "notes": [
+    {
+      "id": 0,
+      "x": 836.3609374999999,
+      "y": -312.3890625,
+      "title": "esquema_aplicar_tablas",
+      "content": "El esquema que almacenara todos los objetos (entidades)se llamara parranda",
+      "color": "#fcf7ac",
+      "height": 162
+    }
+  ],
+  "subjectAreas": [
+    {
+      "id": 0,
+      "name": "tablas_tipo",
+      "x": -973.4703124999999,
+      "y": -332.3270263671875,
+      "width": 727.7718749999999,
+      "height": 993.984521484375,
+      "color": "#f03c3c"
+    }
+  ],
+  "database": "postgresql",
+  "types": [],
+  "enums": []
+}
