@@ -96,7 +96,7 @@ SELECT * FROM dml.tmp_test_insert_select
 
 
 -- insert basico - intermedio
-CREATE TABLE dml.tmp_test_insert_create AS
+CREATE TABLE dml.tmp_test_insert_create2 AS
  SELECT activo,
 	descripcion,
 	id_tipo,
