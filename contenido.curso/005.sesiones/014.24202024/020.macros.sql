@@ -7,8 +7,8 @@
 
     referencias: https://duckdb.org/docs/sql/statements/create_macro.html
 
-    Las secuencias son objetos independeientes que generan números únicos en un orden secuencial, 
-    comúnmente utilizados para crear identificadores únicos para filas en una tabla.   
+   En duckDB, las macros son como vistas (consultas guardadas), 
+   pero con la ventaja de que pueden aceptar parámetros para hacerlas más flexibles y reutilizables.
 */
 
 -- definir simple macro
