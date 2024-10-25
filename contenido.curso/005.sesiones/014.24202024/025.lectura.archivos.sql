@@ -57,7 +57,7 @@ FROM read_json(CONCAT_WS('/', getvariable('datasets'), 'tv_shows.json')) tt
 
 
 -- lectura Excel 
--- referencias: https://duckdb.org/docs/data/json/overview
+-- referencias: https://duckdb.org/docs/guides/file_formats/excel_export
 -- tener activado
 -- INSTALL spatial;
 -- LOAD spatial;
@@ -79,7 +79,7 @@ SELECT * FROM st_read(
 
 
 -- lectura parquet 
--- referencias: https://duckdb.org/docs/data/json/overview
+-- referencias: https://duckdb.org/docs/guides/file_formats/parquet_import
 -- PARQUET == LO MAS USADO A NIVELES ALTOS Y MADUROS
 
 -- directa
