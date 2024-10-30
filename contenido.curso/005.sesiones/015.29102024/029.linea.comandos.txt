@@ -1,0 +1,37 @@
+-- referencias: https://duckdb.org/docs/api/cli/arguments.html
+
+
+-- menú de ayuda
+duckdb -h
+
+
+-- versión de base de base de datos
+duckdb --version
+
+
+-- abrir base de dato(s)
+duckdb base_de_datos;
+
+
+-- ejecutar consulta
+duckdb eventos -s 'SELECT * FROM parranda.tipo_musica'    
+
+
+-- salida a csv
+duckdb eventos -csv -s 'SELECT * FROM parranda.tipo_musica'
+
+
+-- salida a json
+duckdb eventos -json -s 'SELECT * FROM parranda.tipo_musica'
+
+-- salida html
+duckdb eventos -html -s  'SELECT * FROM parranda.tipo_musica' --stats
+
+-- salida box
+duckdb eventos -box  -s  'SELECT * FROM parranda.tipo_musica' 
+
+-- ejecutar modo 
+
+
+-- comandos de punto: https://duckdb.org/docs/api/cli/dot_commands
+duckdb ruta/nombre_db < 030.propiedades.sql 
